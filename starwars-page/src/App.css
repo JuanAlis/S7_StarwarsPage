@@ -1,0 +1,289 @@
+
+
+.nav-link:hover{
+    transition: all 0.3s ease;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 30px rgba(255, 255, 255, 0.8);
+}
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+    /* Asegura que esté encima */
+}
+
+.modal-content {
+    background: #000000;
+    border: 2px solid #ffd700; /* Amarillo Jedi */
+    box-shadow: 0 0 15px  rgba(0, 170, 255, 0.8);
+    text-align: center;
+}
+
+/* Input estilo Star Wars */
+.form-control {
+    border: 2px solid #00aaff;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.8);
+    transition: all 0.3s ease-in-out;
+    text-shadow: #ffcc00;
+}
+
+
+
+
+.form-control:hover{
+    border-color:#00aaff;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.8);
+    color: black;
+    outline: none;
+}
+
+/* Botón de inicio de sesión Star Wars */
+.btn-login {
+    background: linear-gradient(90deg, #00aaff, #cc0000);
+    color: white;
+    border: 2px solid #ff4d4d;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Star Jedi', sans-serif; /* Fuente temática */
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.btn-login:hover {
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.9);
+}
+
+/*  Botón de cerrar con efecto hover */
+.btn-close-modal {
+    background: transparent;
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    padding: 4px;
+    
+}
+
+.btn-close-modal:hover {
+    background: #ff0000;
+    color: white;
+    box-shadow: 0 0 10px rgba(234, 226, 0, 0.8);
+}
+
+.btn-google{
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.btn-google:hover{
+    box-shadow: 0 0 10px #b0e0e6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CARD STYLES*/
+
+.card-hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 125px !important;
+    border: 1px solid;
+    border-left: none;
+    border-top: none;
+    
+}
+
+.card-hover-effect:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 10px 20px rgba(255, 255, 0, 0.3); 
+}
+
+.card-hover-effect:hover .card-text,
+.card-hover-effect:hover .card-title {
+    color: #ffc107 !important; 
+    font-size: 1.1rem !important; 
+    font-weight: bold !important; 
+}
+
+
+
+/* StarshipsDetails*/
+
+.table-rounded {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.table-rounded tbody tr th {
+    font-size: 1.2rem; /* Tamaño más grande */
+    color: #ffc107; /* Amarillo Bootstrap */
+    font-weight: bold;
+}
+
+.table-rounded tbody tr td {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #6c757d; /* Color text-secondary */
+}
+
+
+
+/*Tirulo de cars*/
+.neon-text {
+    font-size: 2.6rem;
+    text-shadow: 0 0 3px #fff, 
+                 0 0 6px #fff, 
+                 0 0 12px #ccc, 
+                 0 0 18px #aaa;
+}
+
+
+
+.Details {
+    width: 120%;
+    background-color: none; /* Fondo oscuro de la tarjeta */
+    color: white;
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-left: none; 
+    border-right: none;
+    border-radius: 10px; /* Bordes suaves */
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.Details:hover{
+    transform: scale(1.05); /* Hace que la card se acerque */
+    box-shadow: 0 10px 20px rgba(255, 255, 0, 0.3),
+                50px 0 20px rgba(5, 30, 255, 0)
+}
+
+/* CARD DE PILOTOS*/
+
+.Aditional{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+
+    background-color: none; /* Fondo oscuro de la tarjeta */
+    color: white;
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-left: none; 
+    border-right: none;
+    border-radius: 10px; /* Bordes suaves */
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Aditional:hover{
+    transform: scale(1.05); /* Hace que la card se acerque */
+    box-shadow: 0 10px 20px rgba(255, 255, 0, 0.3),
+                50px 0 20px rgba(5, 30, 255, 0)
+}
+
+/* Contenedor para igualar el tamaño con la tabla */
+
+/* Imagen ajustada sin deformarse */
+.starship-image {
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    border-radius: 10px;
+    margin-left: 95px;
+    padding-right: 5px;
+    max-width: 550px;
+}
+@media (max-width: 768px) {
+    .starship-image {
+        max-width: 250px; /* Reduce el tamaño en móviles */
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width : 1406px){
+    .starship-image{
+        max-width: 305px;
+        margin-left: 45px;
+    }
+}
+/*OPENING*/
+
+
+.welcome-container {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Video en el fondo con Z negativa */
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw; /* Ocupará todo el ancho */
+    height: 100vh; /* Ocupará toda la altura */
+    object-fit: cover; /* Ajusta el video sin deformarlo */
+    transform: translate(-50%, -50%); /* Centra el video */
+    z-index: -1; /* Lo manda al fondo */
+}
+
+
+
+/*IMAGENES PELICULAS*/
+.film-image{
+    height: 325px;
+}
+
+.pilot-image{
+    height: 325px;
+    width: 215px;
+
+}
+
+.cards {
+    margin-top: 20px;
+    background: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover: aumenta de tamaño y añade glow */
+.cards:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}

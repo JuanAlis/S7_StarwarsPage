@@ -1,0 +1,6 @@
+body {
+    background-image: url('/public/background-stars-desktop.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
